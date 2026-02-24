@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-02-24T09:00:00",
+    "machine": "lab-pc-1",
+    "user": "dias",
+    "type": "login"
+  },
+  {
+    "date": "2026-02-24T09:05:00",
+    "machine": "lab-pc-1",
+    "user": "aidan",
+    "type": "login"
+  },
+  {
+    "date": "2026-02-24T09:10:00",
+    "machine": "lab-pc-2",
+    "user": "aru",
+    "type": "login"
+  },
+  {
+    "date": "2026-02-24T09:20:00",
+    "machine": "lab-pc-1",
+    "user": "dias",
+    "type": "logout"
+  }
+]
