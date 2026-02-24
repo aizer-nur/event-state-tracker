@@ -29,7 +29,5 @@ I built this to practice automation and system monitoring basics: turning events
 
 ## Example output
 
-## Example output
-
 lab-pc-1: aidan  
 lab-pc-2: aru
