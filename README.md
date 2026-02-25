@@ -1,8 +1,8 @@
 # EVENT STATE TRACKER
 
-A small Python tracker that reads logins and logouts events and checks which users are currently active on each pc.
+A small Python tracker that reads login/logout events and shows which users are currently active on each pc.
 
-This small tool demonstrates event-driven state tracking (rebuilding current state from logs), a default pattern in monitoring and automation.
+This small tool demonstrates event-driven state tracking (rebuilding current state from logs), a common pattern in monitoring and automation.
 
 ## Input format
 
@@ -18,10 +18,11 @@ This small tool demonstrates event-driven state tracking (rebuilding current sta
 ## How to run
 
 ```bash
-py main.py
+py main.py data/events.json
 ```
-
-(Output would be printed to the terminal and also saved to docs/report.json)
+Output:
+- printed to the terminal
+- saved to `docs/report.json`
 
 ## Reason
 
@@ -29,5 +30,7 @@ I built this to practice automation and system monitoring basics: turning events
 
 ## Example output
 
-lab-pc-1: aidan  
+```text
+lab-pc-1: aidan
 lab-pc-2: aru
+```
